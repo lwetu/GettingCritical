@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#box1{
+	border: 5px solid black;
+	width: 300px;
+	height: 300px;
+}
+#box2{
+	border: 5px solid black;
+	width: 300px;
+    height: 300px;
+}
+
+var myBox1 = document.getElementById('box1');
+var button = document.getElementById('red');
+var myBox2 = document.getElementById('box2');
+var button = document.getElementById('green');
+
+
+button.addEventListener('click', function(){
+myBox1.style.backgroundColor = 'green'
+})
+button.addEventListener('click', function(){
+myBox2.style.backgroundColor = 'red'
+})
+</style>  	
+	<link rel="stylesheet" type="text/css" href="task3.css">
+
+</head>
+<body>
+	<div id="box1"></div>
+
+	<div id="box2"></div>
+	
+	<button id= "green">Green&Red</button>
+ 
+<script type="text/javascript" src="task3.js"></script>
+</body>
+</html>  
